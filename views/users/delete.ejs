@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>New users</h1>
+    <form action="/users" method="POST">
+      <label
+        >First Name
+        <input type="text" name="firstName" value="<%= locals.firstName %>" />
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

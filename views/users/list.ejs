@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>Users</h1>
+    <ul>
+      <% for(var i=0; i < locals.users.length; i++) { %>
+      <li><%= locals.users[i].name %></li>
+      <% } %>
+    </ul>
+  </body>
+</html>
